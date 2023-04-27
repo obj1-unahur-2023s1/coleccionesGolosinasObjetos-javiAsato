@@ -1,6 +1,9 @@
+import golosinas.*
+import mariano.*
 
-test "testX" {
+test "El caramelo más caro" {
 
-	assert.that(true)
+	mariano.bolsaDeGolosinas.add(bombon)
+	assert.that(mariano.golosinaMasCara() == alfajor)
 
 }
